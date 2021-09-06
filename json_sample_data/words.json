@@ -1,0 +1,43 @@
+{
+    "-Misuay1y3EiIgIDRSj6": {
+        "categoryid": "varchar",
+        "definition": "string",
+        "firebaseKey": "-Misuay1y3EiIgIDRSj6",
+        "id": "varchar",
+        "timesubmitted": "datetime"
+    },
+    "-Misxux1MnyYRJdhpwcP": {
+        "categoryid": "varchar",
+        "definition": "",
+        "firebaseKey": "-Misxux1MnyYRJdhpwcP",
+        "timeSubmitted": "datetime"
+    },
+    "-Misywl7EU_TX2w6PkJc": {
+        "categoryid": "varchar",
+        "definition": "string",
+        "firebaseKey": "-Misywl7EU_TX2w6PkJc",
+        "id": "varchar",
+        "timesubmitted": "datetime"
+    },
+    "-MiszS3Y8ij-KGfonIxO": {
+        "categoryid": "varchar",
+        "definition": "string",
+        "firebaseKey": "-MiszS3Y8ij-KGfonIxO",
+        "id": "varchar",
+        "timesubmitted": "datetime"
+    },
+    "-Mit-3CgxoMyEPqLFHqJ": {
+        "categoryid": "varchar",
+        "definition": "string",
+        "firebaseKey": "-Mit-3CgxoMyEPqLFHqJ",
+        "id": "varchar",
+        "timesubmitted": "datetime"
+    },
+    "-Mit-baJrVTE4bDoxo-T": {
+        "categoryid": "varchar",
+        "definition": "string",
+        "firebaseKey": "-Mit-baJrVTE4bDoxo-T",
+        "id": "varchar",
+        "timesubmitted": "datetime"
+    }
+}
