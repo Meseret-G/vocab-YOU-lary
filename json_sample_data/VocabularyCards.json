@@ -1,5 +1,6 @@
 {
     "-Misuay1y3EiIgIDRSj6": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "string",
         "firebaseKey": "-Misuay1y3EiIgIDRSj6",
@@ -7,12 +8,14 @@
         "timesubmitted": "datetime"
     },
     "-Misxux1MnyYRJdhpwcP": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "",
         "firebaseKey": "-Misxux1MnyYRJdhpwcP",
         "timeSubmitted": "datetime"
     },
     "-Misywl7EU_TX2w6PkJc": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "string",
         "firebaseKey": "-Misywl7EU_TX2w6PkJc",
@@ -20,6 +23,7 @@
         "timesubmitted": "datetime"
     },
     "-MiszS3Y8ij-KGfonIxO": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "string",
         "firebaseKey": "-MiszS3Y8ij-KGfonIxO",
@@ -27,6 +31,7 @@
         "timesubmitted": "datetime"
     },
     "-Mit-3CgxoMyEPqLFHqJ": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "string",
         "firebaseKey": "-Mit-3CgxoMyEPqLFHqJ",
@@ -34,6 +39,7 @@
         "timesubmitted": "datetime"
     },
     "-Mit-baJrVTE4bDoxo-T": {
+        "title": "",
         "categoryid": "varchar",
         "definition": "string",
         "firebaseKey": "-Mit-baJrVTE4bDoxo-T",

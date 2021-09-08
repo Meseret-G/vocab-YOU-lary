@@ -1,42 +1,42 @@
 {
     "-Mit3WMF6t4G84RhSCjC": {
-        "category": "Tech",
+        "category_type": "Tech",
         "favorite": true,
         "firebaseKey": "-Mit3WMF6t4G84RhSCjC",
         "specification": "HTML"
     },
     "-MitASJh4o84W6Mp4ysj": {
-        "category": "Tech",
+        "category_type": "Tech",
         "favorite": true,
         "firebaseKey": "-MitASJh4o84W6Mp4ysj",
         "specification": "JavaScript"
     },
     "-MitAtE6hR5OmwWMr5CT": {
-        "category": "Tech",
+        "category_type": "Tech",
         "favorite": true,
         "firebaseKey": "-MitAtE6hR5OmwWMr5CT",
         "specification": "CSS"
     },
     "-MitDkEZAGHTHvSl8KJ7": {
-        "category": "Politics",
+        "category_type": "Politics",
         "favorite": true,
         "firebaseKey": "-MitDkEZAGHTHvSl8KJ7",
         "specification": "CSS"
     },
     "-MitEItd5ZUfpU4Ow1us": {
-        "category": "Politics",
+        "category_type": "Politics",
         "favorite": false,
         "firebaseKey": "-MitEItd5ZUfpU4Ow1us",
         "specification": "CSS"
     },
     "-MitEdtCFA5jr1tyle6X": {
-        "category": "Politics",
+        "category_type": "Politics",
         "favorite": true,
         "firebaseKey": "-MitEdtCFA5jr1tyle6X",
         "specification": "HTML"
     },
     "-MitFDzQbwT8APQoWV3d": {
-        "category": "Economics",
+        "category_type": "Economics",
         "favorite": true,
         "firebaseKey": "-MitFDzQbwT8APQoWV3d",
         "specification": "HTML"
