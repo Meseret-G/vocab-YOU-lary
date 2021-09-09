@@ -1,44 +1,43 @@
 {
     "-Mit3WMF6t4G84RhSCjC": {
-        "category_type": "Tech",
-        "favorite": true,
-        "firebaseKey": "-Mit3WMF6t4G84RhSCjC",
-        "specification": "HTML"
+        "language": "Tech",
+        "specification": "HTML",
+        "firebaseKey": "-Mit3WMF6t4G84RhSCjC" 
     },
+
     "-MitASJh4o84W6Mp4ysj": {
-        "category_type": "Tech",
-        "favorite": true,
-        "firebaseKey": "-MitASJh4o84W6Mp4ysj",
-        "specification": "JavaScript"
+        "language": "Tech",
+        "specification": "JavaScript",
+        "firebaseKey": "-MitASJh4o84W6Mp4ysj"   
     },
+
     "-MitAtE6hR5OmwWMr5CT": {
-        "category_type": "Tech",
-        "favorite": true,
-        "firebaseKey": "-MitAtE6hR5OmwWMr5CT",
-        "specification": "CSS"
+        "language": "Tech",
+        "specification": "CSS",
+        "firebaseKey": "-MitAtE6hR5OmwWMr5CT"   
     },
+
     "-MitDkEZAGHTHvSl8KJ7": {
-        "category_type": "Politics",
-        "favorite": true,
-        "firebaseKey": "-MitDkEZAGHTHvSl8KJ7",
-        "specification": "CSS"
+        "language": "Politics",
+        "specification": "CSS",
+        "firebaseKey": "-MitDkEZAGHTHvSl8KJ7"
     },
+
     "-MitEItd5ZUfpU4Ow1us": {
-        "category_type": "Politics",
-        "favorite": false,
-        "firebaseKey": "-MitEItd5ZUfpU4Ow1us",
-        "specification": "CSS"
+        "language": "Politics",
+        "specification": "CSS",
+        "firebaseKey": "-MitEItd5ZUfpU4Ow1us"  
     },
+    
     "-MitEdtCFA5jr1tyle6X": {
-        "category_type": "Politics",
-        "favorite": true,
-        "firebaseKey": "-MitEdtCFA5jr1tyle6X",
-        "specification": "HTML"
+        "language": "Politics",
+        "specification": "HTML",
+        "firebaseKey": "-MitEdtCFA5jr1tyle6X" 
     },
+
     "-MitFDzQbwT8APQoWV3d": {
-        "category_type": "Economics",
-        "favorite": true,
-        "firebaseKey": "-MitFDzQbwT8APQoWV3d",
-        "specification": "HTML"
+        "language": "Economics",
+        "specification": "HTML",
+        "firebaseKey": "-MitFDzQbwT8APQoWV3d"   
     }
 }

@@ -4,22 +4,28 @@ import firebaseConfig from '../../api/apiKeys';
 
 const dbUrl = firebaseConfig.databaseURL;
 // GET VOCABULARY CARDS
-const getVocabulary = () => new Promise((resolve, reject) => {
+const getAllVocabulary = () => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/words.json`)
     .then((response) => resolve(Object.values(response.data)))
     .catch((error) => reject(error));
 });
+
 // CREATE VOCABULARY CARDS
-// const createVocabulary = (vocabularyObj) => new Promise((resolve, reject) => {
-//   axios.post(`${dbUrl}/words.json`, vocabularyObj)
-//     .then((response) => {
-//       const body = { firebaseKey: response.data.name };
-//       axios.patch(`${dbUrl}/words/${firebaseKey}.json`, body); 
-//       .then(() => {
-//           getVocabulary(vocabularyObj).then(resolve);
-//       });
+const createVocabulary = (vocabObj) => new Promise((resolve, reject) => {
+  axios.post(`${dbUrl}/words.json`, vocabObj)
+    .then((response) => {
+      const content = { firebaseKey: response.data.name };
+      axios.patch(`${dbUrl}/words/${response.data.name}.json`, content)
+        .then(() => {
+          getAllVocabulary(vocabObj).then(resolve);
+        });
+    }).catch((error) => reject(error));
+});
 
-//     }).catch((error) => reject(error));
-// });
-
-export default getVocabulary;
+// GET SINGLE VOCABULARY CARD
+const getSingleVocabulary = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/words/${firebaseKey}.json`)
+    .then((response) => resolve(response.data))
+    .catch(reject);
+});
+export { getAllVocabulary, createVocabulary, getSingleVocabulary };
