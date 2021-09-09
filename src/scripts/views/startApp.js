@@ -1,18 +1,18 @@
 import domBuilder from '../components/domBuilder';
 import navBar from '../components/navBar';
 import logoutButton from '../components/logoutButton';
-import domEvents from '../events/domEvents';
-import getVocabulary from '../helpers/vocabularyData';
-import { showVocabCards } from '../components/vocabulary';
 import navigationEvents from '../events/navEvents';
+import domEvents from '../events/domEvents';
+import { getAllVocabulary } from '../helpers/vocabularyData';
+import { showVocabCards } from '../components/vocabulary';
 
 const startApp = () => {
   domBuilder();
   navBar();
-  logoutButton();
   domEvents();
+  logoutButton();
   navigationEvents();
-  getVocabulary().then((vocabArray) => showVocabCards(vocabArray));
+  getAllVocabulary().then(showVocabCards);
 };
 
 export default startApp;

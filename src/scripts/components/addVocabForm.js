@@ -1,6 +1,8 @@
 import selectCategory from './selectCategory';
+import clearDom from '../helpers/clearDom';
 
 const addVocabForm = () => {
+  clearDom();
   document.querySelector('#form-container').innerHTML = `
         <form id="submit-vocabulary-form" class="mb-4">
           <div class="form-group">
@@ -14,6 +16,7 @@ const addVocabForm = () => {
           </div>
           <div class="form-group" id="select-category">
          </div>
+         <div class="form-group">
           <button type="submit" id="submit-vocabulary" class="btn btn-primary">Submit Vocabulary</button>
         </form>`;
 

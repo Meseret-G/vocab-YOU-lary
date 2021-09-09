@@ -9,7 +9,6 @@ const showVocabCards = (vocabArray) => {
             <div class="card-body" style="height: 180px;">
               <h5 class="card-title">${obj.definition}</h5>
               <h5 class="time-submitted">${obj.timesubmitted}</h5>
-                <hr>
                 <i class="btn btn-success fas fa-eye" id="view-vocabulary-btn"></i>
                 <i id="edit-vocabulary-btn" class="fas fa-edit btn btn-info"></i>
                 <i id="delete-vocabulary-btn" class="btn btn-danger fas fa-trash-alt"></i>
@@ -19,6 +18,6 @@ const showVocabCards = (vocabArray) => {
 };
 
 const emptyVocabCards = () => {
-  document.querySelector('#store').innerHTML = '<h1> No Items </h1>';
+  document.querySelector('#store').innerHTML = '<h1> No Vocabulary Cards </h1>';
 };
 export { showVocabCards, emptyVocabCards };
