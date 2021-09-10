@@ -5,6 +5,8 @@ import navigationEvents from '../events/navEvents';
 import domEvents from '../events/domEvents';
 import { getAllVocabulary } from '../helpers/vocabularyData';
 import { showVocabCards } from '../components/vocabulary';
+// import { getAllCategory } from '../helpers/categoryData';
+// import { showCategory } from '../components/category';
 
 const startApp = () => {
   domBuilder();
@@ -13,6 +15,7 @@ const startApp = () => {
   logoutButton();
   navigationEvents();
   getAllVocabulary().then(showVocabCards);
+  // getAllCategory().then(showCategory);
 };
 
 export default startApp;

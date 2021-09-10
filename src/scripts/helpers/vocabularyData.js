@@ -34,10 +34,19 @@ const updateVocabCard = (vocabObj) => new Promise((resolve, reject) => {
     .then(() => getAllVocabulary().then(resolve))
     .catch(reject);
 });
+// DELETE VOCABULARY CARDS
+const deleteVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.delete(`${dbUrl}/words/${firebaseKey}.json`)
+    .then(() => {
+      getAllVocabulary().then(resolve);
+    })
+    .catch(reject);
+});
 
 export {
   getAllVocabulary,
   createVocabulary,
   getSingleVocabulary,
-  updateVocabCard
+  updateVocabCard,
+  deleteVocabCard
 };

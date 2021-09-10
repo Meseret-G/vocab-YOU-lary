@@ -1,7 +1,7 @@
 import selectCategory from './selectCategory';
 import clearDom from '../helpers/clearDom';
 
-const addVocabForm = (obj) => {
+const addVocabForm = (obj = {}) => {
   clearDom();
   document.querySelector('#form-container').innerHTML = `
         <form id="submit-vocabulary-form" class="mb-4">
