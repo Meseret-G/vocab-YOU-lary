@@ -2,6 +2,9 @@ import signOut from '../helpers/signOut';
 import { getAllVocabulary } from '../helpers/vocabularyData';
 import { showVocabCards } from '../components/vocabulary';
 import addVocabForm from '../components/addVocabForm';
+// import addCategoryForm from '../components/addCategoryForm';
+// import { showCategory } from '../components/category';
+// import { getAllCategory } from '../helpers/categoryData';
 
 // NAVIGATION EVENTS
 const navigationEvents = () => {
@@ -16,4 +19,8 @@ const navigationEvents = () => {
   // CREATE A NEW VOCABULARY CARD
   document.querySelector('#submit-vocabulary').addEventListener('click', addVocabForm);
 };
+// ALL CATEGORY CARDS
+// document.querySelector('#category').addEventListener('click', () => {
+//   getAllCategory().then(showCategory);
+// });
 export default navigationEvents;
