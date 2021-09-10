@@ -28,4 +28,16 @@ const getSingleVocabulary = (firebaseKey) => new Promise((resolve, reject) => {
     .then((response) => resolve(response.data))
     .catch(reject);
 });
-export { getAllVocabulary, createVocabulary, getSingleVocabulary };
+// UPDATE VOCABULARY CARDS
+const updateVocabCard = (vocabObj) => new Promise((resolve, reject) => {
+  axios.patch(`${dbUrl}/words/${vocabObj.firebaseKey}.json`, vocabObj)
+    .then(() => getAllVocabulary().then(resolve))
+    .catch(reject);
+});
+
+export {
+  getAllVocabulary,
+  createVocabulary,
+  getSingleVocabulary,
+  updateVocabCard
+};

@@ -1,25 +1,25 @@
 import selectCategory from './selectCategory';
 import clearDom from '../helpers/clearDom';
 
-const addVocabForm = () => {
+const addVocabForm = (obj) => {
   clearDom();
   document.querySelector('#form-container').innerHTML = `
         <form id="submit-vocabulary-form" class="mb-4">
           <div class="form-group">
             <label for="title">Title</label>
-            <input type="text" class="form-control" id="vocab-title" aria-describedby="title" placeholder="Vocabulary Title" required>
-          </div>
-          <div class="form-group">
-            <label for="definition">Vocabulary Definition </label>
-            <input type="text" class="form-control" id="vocab-definition" aria-describedby="definition" placeholder="Enter Vocabulary Definition" required>
-          </div>
-          </div>
-          <div class="form-group" id="select-category">
-         </div>
-         <div class="form-group">
-          <button type="submit" id="submit-vocabulary" class="btn btn-primary">Submit Vocabulary</button>
-        </form>`;
+            <input type="text" class="form-control" id="title" aria-describedby="VocabularyTitle" placeholder="Enter A Vocabulary" value="${obj.title || ''}" required>
+        </div>
+        <div class="form-group">
+            <label for="definition">Definition</label>
+            <textarea class="form-control" placeholder="Enter a definition" id="definition" style="height: 100px" required>${obj.definition || ''}</textarea>
+        </div>
+        <div class="form-group" id="select-category">
+        </div>
+        <button type="submit" id="${obj.firebaseKey ? `update-vocabulary--${obj.firebaseKey}` : 'submit-vocabulary'}" class="btn btn-primary">Submit Vocabulary</button>
+        </form>
+        `;
 
-  selectCategory();
+  selectCategory(`${obj.category_id || ''}`);
 };
+
 export default addVocabForm;
