@@ -8,11 +8,10 @@ const showCategory = (array) => {
       <div class="card">
         <div class="card-body" style="height: 180px;">
           <p class="card-text bold">${item.language}</p>
-          <p class="card-text bold">${item.specification}</p>
           <hr>
-          <i class="btn btn-success fas fa-eye" id="view-category-btn--${item.firebaseKey}"></i>
-          <i id="edit-category-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
-          <i id="delete-category--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
+          <i class="btn btn-success fas fa-eye" id="view-language-btn--${item.firebaseKey}"></i>
+          <i id="edit-language-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
+          <i id="delete-language--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
         </div>
       </div>
     `;

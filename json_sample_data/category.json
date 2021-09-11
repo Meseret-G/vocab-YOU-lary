@@ -1,43 +1,36 @@
 {
     "-Mit3WMF6t4G84RhSCjC": {
-        "language": "Tech",
-        "specification": "HTML",
+        "language": "HTML",
         "firebaseKey": "-Mit3WMF6t4G84RhSCjC" 
     },
 
     "-MitASJh4o84W6Mp4ysj": {
-        "language": "Tech",
-        "specification": "JavaScript",
+        "language": "JavaScript",
         "firebaseKey": "-MitASJh4o84W6Mp4ysj"   
     },
 
     "-MitAtE6hR5OmwWMr5CT": {
-        "language": "Tech",
-        "specification": "CSS",
+        "language": "CSS",
         "firebaseKey": "-MitAtE6hR5OmwWMr5CT"   
     },
 
     "-MitDkEZAGHTHvSl8KJ7": {
-        "language": "Politics",
-        "specification": "CSS",
+        "language": "CSS",
         "firebaseKey": "-MitDkEZAGHTHvSl8KJ7"
     },
 
     "-MitEItd5ZUfpU4Ow1us": {
-        "language": "Politics",
-        "specification": "CSS",
+        "language": "JavaScript",
         "firebaseKey": "-MitEItd5ZUfpU4Ow1us"  
     },
     
     "-MitEdtCFA5jr1tyle6X": {
-        "language": "Politics",
-        "specification": "HTML",
+        "language": "HTML",
         "firebaseKey": "-MitEdtCFA5jr1tyle6X" 
     },
 
     "-MitFDzQbwT8APQoWV3d": {
-        "language": "Economics",
-        "specification": "HTML",
+        "language": "JavaScript",
         "firebaseKey": "-MitFDzQbwT8APQoWV3d"   
     }
 }

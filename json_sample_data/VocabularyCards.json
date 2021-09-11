@@ -1,55 +1,49 @@
 {
     "-Misuay1y3EiIgIDRSj6": {
         "title": "Promises",
-        "categoryid": "-Mit3WMF6t4G84RhSCjC",
         "category": "Tech",
         "definition": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.",
         "firebaseKey": "-Misuay1y3EiIgIDRSj6",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
         
     },
     "-Misxux1MnyYRJdhpwcP": {
         "title": "Econometrics",
-        "categoryid": "-MitASJh4o84W6Mp4ysj",
         "category": "Economics",
         "definition": "Econometrics is the application of statistical methods to economic data in order to give empirical content to economic relationships.",
         "firebaseKey": "-Misxux1MnyYRJdhpwcP",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
     },
 
     "-Misywl7EU_TX2w6PkJc": {
         "title": "Code Refactoring",
-        "categoryid": "-MitAtE6hR5OmwWMr5CT",
         "category": "Tech",
         "definition": "In computer programming and software design, code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior.",
         "firebaseKey": "-Misywl7EU_TX2w6PkJc",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
     },
 
     "-MiszS3Y8ij-KGfonIxO": {
         "title": "Diplomacy",
-        "categoryid": "-MitDkEZAGHTHvSl8KJ7",
         "category": "Politics",
         "definition": "Diplomacy refers to spoken or written speech acts by representatives of states intended to influence events in the international system.",
         "firebaseKey": "-MiszS3Y8ij-KGfonIxO",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 "
     },
 
     "-Mit-3CgxoMyEPqLFHqJ": {
         "title": "Macroeconomics",
-        "categoryid": "-MitEItd5ZUfpU4Ow1us",
         "category": "Economics",
         "definition": "Macroeconomics is a branch of economics dealing with the performance, structure, behavior, and decision-making of an economy as a whole. For example, using interest rates, taxes, and government spending to regulate an economy’s growth and stability.",
         "firebaseKey": "-Mit-3CgxoMyEPqLFHqJ",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 "
     },
 
     "-Mit-baJrVTE4bDoxo-T": {
         "title": "Memory Management",
-        "categoryid": "-MitEdtCFA5jr1tyle6X",
         "category": "Tech",
         "definition": "Memory management refers to the functionality of an operating system that handles and manages the primary memory. Processes move back and forth between the main memory and the disk during the execution.",
         "firebaseKey": "-Mit-baJrVTE4bDoxo-T",
-        "uid": " "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
     }
 }

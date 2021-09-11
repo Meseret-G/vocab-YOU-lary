@@ -10,7 +10,7 @@ const getAllVocabulary = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-// CREATE VOCABULARY CARDS
+// CREATE VOCABULARY CARDS BY USER
 const createVocabulary = (vocabObj) => new Promise((resolve, reject) => {
   axios.post(`${dbUrl}/words.json`, vocabObj)
     .then((response) => {
@@ -42,11 +42,28 @@ const deleteVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
     })
     .catch(reject);
 });
-// FILTER TECH VOCABULARY CATEGORY
+// Searched Card
+const getSearchedCard = (string) => new Promise((resolve, reject) => {
+  getAllVocabulary(Object)
+    .then((filteredCardsArray) => {
+      const filteredCards = filteredCardsArray.filter((vocab) => vocab.title.toUpperCase().includes(string) || vocab.title.toUpperCase.includes(string));
+      resolve(filteredCards);
+    }).catch(reject);
+});
+// FILTER VOCABULARY CATEGORY
+const filterVocab = (category) => new Promise((resolve, reject) => {
+  getAllVocabulary()
+    .then((vocabArray) => {
+      const filteredVocab = vocabArray.filter((card) => card.category === category);
+      resolve(filteredVocab);
+    }).catch(reject);
+});
 export {
   getAllVocabulary,
   createVocabulary,
   getSingleVocabulary,
   updateVocabCard,
-  deleteVocabCard
+  deleteVocabCard,
+  filterVocab,
+  getSearchedCard
 };
