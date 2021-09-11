@@ -21,10 +21,10 @@ const navBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="Tech-vocab">Technology </a>
+                <a class="nav-link" href="#" id="category">Tech Vocabulary Cards </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="category">Category</a>
+                <a class="nav-link" href="#" id="specific-category">Category</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" id="favorite-category">Favorite Category</a>

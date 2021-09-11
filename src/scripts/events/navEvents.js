@@ -16,7 +16,7 @@ const navigationEvents = () => {
     getAllVocabulary().then(showVocabCards);
   });
 
-  // CREATE A NEW VOCABULARY CARD
+  // // CREATE A NEW VOCABULARY CARD
   document.querySelector('#submit-vocabulary').addEventListener('click', addVocabForm);
 };
 // ALL CATEGORY CARDS

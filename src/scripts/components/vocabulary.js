@@ -8,6 +8,7 @@ const showVocabCards = (vocabArray) => {
           <div class="card">
             <div class="card-body" style="height: 180px;">
               <h5 class="title">${obj.title}</h5>
+              <h5 class="card-text bold">${obj.category ? `${obj.category}` : `${obj.category}`}</p>
               <h5 class="definition">${obj.definition}</h5>
                 <i class="btn btn-success fas fa-eye" id="view-vocabulary-btn--${obj.firebaseKey}"></i>
                 <i id="edit-vocabulary-btn--${obj.firebaseKey}" class="fas fa-edit btn btn-info"></i>
