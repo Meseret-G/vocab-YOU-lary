@@ -2,6 +2,12 @@ import clearDom from '../helpers/clearDom';
 
 const showVocabCards = (vocabArray) => {
   clearDom();
+
+  document.querySelector('#sort-container').innerHTML = `
+    <button type="button" class="btn btn-primary" id="sort--Tech">Technology</button>
+    <button type="button" class="btn btn-primary" id="sort--Economics">Economics</button>
+    <button type="button" class="btn btn-primary" id="sort--Politics">Politics</button>
+`;
   document.querySelector('#add-button').innerHTML = '<button class="btn btn-success btn-lg mb-4" id="add-vocabulary-btn">Add A Vocabulary Card</button>';
   vocabArray.forEach((obj) => {
     document.querySelector('#store').innerHTML += `

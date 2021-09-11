@@ -21,15 +21,16 @@ const navBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="category">Tech Vocabulary Cards </a>
+                <a class="nav-link" href="#" id="Tech">Tech Vocabulary Cards </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" id="specific-category">Category</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="favorite-category">Favorite Category</a>
-              </li>
             </ul>
+            <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchVocab">
+          <button class="btn btn-outline-success" type="submit" id="search-btn">Search Vocabulary</button>
+        </form>
             <div id="cart-button"></div>
             <div id="logout-button"></div>
           </div>

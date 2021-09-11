@@ -1,4 +1,4 @@
-import selectCategory from './selectCategory';
+// import selectLanguage from './selectLanguage';
 import clearDom from '../helpers/clearDom';
 
 const addVocabForm = (obj = {}) => {
@@ -11,19 +11,19 @@ const addVocabForm = (obj = {}) => {
         </div>
         <div class="form-group">
             <label for="definition">Definition</label>
-            <textarea class="form-control" placeholder="Enter a definition" id="definition" style="height: 100px" required>${obj.definition || ''}</textarea>
+            <textarea class="form-control" placeholder="Enter A Definition" id="definition" style="height: 100px" required>${obj.definition || ''}</textarea>
         </div>
         <div class="form-group">
             <label for="category">Category</label>
             <textarea class="form-control" placeholder="Enter A Category" id="category" style="height: 100px">${obj.category || ''}</textarea>
         </div>
-        <div class="form-group" id="select-category">
+        <div class="form-group" id="select-language">
         </div>
         <button type="submit" id="${obj.firebaseKey ? `update-vocabulary--${obj.firebaseKey}` : 'submit-vocabulary'}" class="btn btn-primary">Submit Vocabulary</button>
         </form>
         `;
 
-  selectCategory(`${obj.category_id || ''}`);
+  // selectLanguage(`${obj.language_id || ''}`);
 };
 
 export default addVocabForm;

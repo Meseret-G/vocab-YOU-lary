@@ -1,11 +1,7 @@
 import signOut from '../helpers/signOut';
-import { getAllVocabulary } from '../helpers/vocabularyData';
+import { getAllVocabulary, filterVocab, getSearchedCard } from '../helpers/vocabularyData';
 import { showVocabCards } from '../components/vocabulary';
-import addVocabForm from '../components/addVocabForm';
-// import addCategoryForm from '../components/addCategoryForm';
-// import { showCategory } from '../components/category';
-// import { getAllCategory } from '../helpers/categoryData';
-
+// import addVocabForm from '../components/addVocabForm';
 // NAVIGATION EVENTS
 const navigationEvents = () => {
   // LOGOUT BUTTON
@@ -15,12 +11,15 @@ const navigationEvents = () => {
   document.querySelector('#all-vocabulary').addEventListener('click', () => {
     getAllVocabulary().then(showVocabCards);
   });
-
-  // // CREATE A NEW VOCABULARY CARD
-  document.querySelector('#submit-vocabulary').addEventListener('click', addVocabForm);
+  // CLICK EVENT FOR FILTERING VOCABULARY CARD BY CATEGORY
+  document.querySelector('#Tech').addEventListener('click', () => {
+    filterVocab('Tech').then(showVocabCards);
+  });
+  // SEARCH VOCABULARY CARDS
+  document.querySelector('#search-btn').addEventListener('click', () => {
+    const string = document.querySelector('#searchVocab').value;
+    getSearchedCard(string).then(showVocabCards);
+  });
 };
-// ALL CATEGORY CARDS
-// document.querySelector('#category').addEventListener('click', () => {
-//   getAllCategory().then(showCategory);
-// });
+
 export default navigationEvents;
