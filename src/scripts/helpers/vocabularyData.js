@@ -42,7 +42,7 @@ const deleteVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
     })
     .catch(reject);
 });
-
+// FILTER TECH VOCABULARY CATEGORY
 export {
   getAllVocabulary,
   createVocabulary,

@@ -18,6 +18,7 @@ const domEvents = () => {
       const vocabularyObj = {
         title: document.querySelector('#title').Value,
         definition: document.querySelector('#definition').Value,
+        category: document.querySelector('#category').Value,
         categoryid: document.querySelector('#category_id').Value
       };
       createVocabulary(vocabularyObj).then(showVocabCards);
@@ -36,6 +37,7 @@ const domEvents = () => {
       const vocabObj = {
         title: document.querySelector('#title').Value,
         definition: document.querySelector('#definition').Value,
+        category: document.querySelector('#category').Value,
         categoryid: document.querySelector('#category_id').Value,
         firebaseKey
       };
