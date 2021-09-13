@@ -1,8 +1,9 @@
 import {
-  createVocabulary, getSingleVocabulary, updateVocabCard, deleteVocabCard, filterVocab
+  createVocabulary, getSingleVocabulary, updateVocabCard, deleteVocabCard, filterVocab, getAllVocabulary
 } from '../helpers/vocabularyData';
 import { showVocabCards } from '../components/vocabulary';
 import addVocabForm from '../components/addVocabForm';
+import sortCardsByTitle from '../components/sortVocab';
 
 const domEvents = (uid) => {
   document.querySelector('#main-container').addEventListener('click', (event) => {
@@ -17,13 +18,12 @@ const domEvents = (uid) => {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
         category: document.querySelector('#category').value,
+        language: document.querySelector('#language').value,
         uid
         // languageid: document.querySelector('#language_id').value,
       };
       createVocabulary(vocabularyObj).then(showVocabCards);
     }
-    // CREATE A NEW VOCABULARY CARD
-    // document.querySelector('#submit-vocabulary').addEventListener('click', addVocabForm);
     // CLICK EVENT FOR EDITING/UPDATING A VOCABULARY CARD
     if (event.target.id.includes('edit-vocabulary-btn')) {
       const [, id] = event.target.id.split('--');
@@ -39,7 +39,7 @@ const domEvents = (uid) => {
         title: document.querySelector('#title').value,
         definition: document.querySelector('#definition').value,
         category: document.querySelector('#category').value,
-        // languageid: document.querySelector('#language_id').value,
+        language: document.querySelector('#language').value,
         firebaseKey
       };
       updateVocabCard(vocabObj).then(showVocabCards);
@@ -56,6 +56,12 @@ const domEvents = (uid) => {
         filterVocab(category).then(showVocabCards);
       }
     });
+    // CLICK EVENT FOR SORTING VOCABULARY CARDS BY NAME
+    if (event.target.id === 'sort-name') {
+      getAllVocabulary().then((vocabArray) => {
+        showVocabCards(sortCardsByTitle(vocabArray));
+      });
+    }
   });
 };
 export default domEvents;
