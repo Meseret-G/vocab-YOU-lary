@@ -4,7 +4,9 @@
         "category": "Tech",
         "definition": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.",
         "firebaseKey": "-Misuay1y3EiIgIDRSj6",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3",
+        "language": "JavaScript"
+
         
     },
     "-Misxux1MnyYRJdhpwcP": {
@@ -12,7 +14,8 @@
         "category": "Economics",
         "definition": "Econometrics is the application of statistical methods to economic data in order to give empirical content to economic relationships.",
         "firebaseKey": "-Misxux1MnyYRJdhpwcP",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3",
+        "language": "N/A"
     },
 
     "-Misywl7EU_TX2w6PkJc": {
@@ -20,7 +23,8 @@
         "category": "Tech",
         "definition": "In computer programming and software design, code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior.",
         "firebaseKey": "-Misywl7EU_TX2w6PkJc",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3",
+        "language": "N/A"
     },
 
     "-MiszS3Y8ij-KGfonIxO": {
@@ -28,7 +32,9 @@
         "category": "Politics",
         "definition": "Diplomacy refers to spoken or written speech acts by representatives of states intended to influence events in the international system.",
         "firebaseKey": "-MiszS3Y8ij-KGfonIxO",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 ",
+        "language": "N/A"
+
     },
 
     "-Mit-3CgxoMyEPqLFHqJ": {
@@ -36,7 +42,8 @@
         "category": "Economics",
         "definition": "Macroeconomics is a branch of economics dealing with the performance, structure, behavior, and decision-making of an economy as a whole. For example, using interest rates, taxes, and government spending to regulate an economy’s growth and stability.",
         "firebaseKey": "-Mit-3CgxoMyEPqLFHqJ",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 "
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3 ",
+        "language": "N/A"
     },
 
     "-Mit-baJrVTE4bDoxo-T": {
@@ -44,6 +51,15 @@
         "category": "Tech",
         "definition": "Memory management refers to the functionality of an operating system that handles and manages the primary memory. Processes move back and forth between the main memory and the disk during the execution.",
         "firebaseKey": "-Mit-baJrVTE4bDoxo-T",
-        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3"
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3",
+        "language": "N/A"
+    },
+    "-MjR-KUCgtddAmNlMtXA": {
+        "title": "Media Queries",
+        "category": "Tech",
+        "definition": "CSS Media Queries are used to change the style of your site depending on what screen resolution or device is being used.",
+        "firebaseKey": "-MjR-KUCgtddAmNlMtXA",
+        "uid": "rh5p0SNHjbYHGWICGuIA8QHbHRF3",
+        "language": "CSS"
     }
 }

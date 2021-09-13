@@ -23,9 +23,6 @@ const navBar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="#" id="Tech">Tech Vocabulary Cards </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="specific-category">Category</a>
-              </li>
             </ul>
             <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchVocab">
